@@ -2,7 +2,7 @@ RoboTamer the multi-paradigm php programming framework
 ======================================================
 
 Object-oriented programming in PHP has become the thing to do recently.
-I too have bought in to it, and have been adjusting my self about OOP.
+I too have bought in to it, and have been educating my self about OOP.
 
 OOP is okay, specially if you are working in a team, however I believe that there are advantages to procedural programming, specially for smaller projects. OOP is just so inefficacy versus the procedural paradigm.
 
