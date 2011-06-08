@@ -25,8 +25,8 @@ LICENSE, TERMS and CONDITIONS
 =============================
 
 This software is licensed under the *GNU LESSER GENERAL PUBLIC LICENSE* (LGPL) version 3
-Please read the license here:
-  http://www.gnu.org/licenses/lgpl-3.0.txt
+Please read the license here:  
+http://www.gnu.org/licenses/lgpl-3.0.txt
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
