@@ -42,7 +42,11 @@ function e($var, $name = FALSE, $return = FALSE) {
         $preO = '<pre>'; $preC = '</pre>';
         $h1O = '<h1>';   $h1C = '</h1>';
         $br = '<br />'.PHP_EOL;
-    }
+    }else{
+        $preO = ''; $preC = '';
+        $h1O = '';   $h1C = '';
+        $br = PHP_EOL;
+	}
     if(!is_array($var) && !is_object($var))
     {
         if ($name !== FALSE) echo $br.$name.': ';

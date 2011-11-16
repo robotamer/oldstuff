@@ -40,7 +40,7 @@ class Load
     {
         $array_name = array_search($var, $GLOBALS);
 
-        $dfile = DROOT.'array/'.$array_name.'.php';
+        $dfile = DROOT.$array_name.'_array.php';
 
         $string = var_export($var,true);
         file_put_contents($dfile,
@@ -91,7 +91,8 @@ class Load
             if(file_exists($mfile)){
                  include $mfile;
             }elseif(self::hasMRoot()){
-                file_put_contents($mfile, self::stripComments($dfile));
+                //file_put_contents($mfile, self::stripComments($dfile));
+                file_put_contents($mfile, php_strip_whitespace($dfile));
                 chmod($mfile, 00644);
                 include $mfile;
             }else{

@@ -5,6 +5,6 @@ function whois($domain) {
      exec("whois " . escapeshellarg($domain), $output); 
      $result = implode("\n", $output);
     
-    return (strpos($result, 'No match for domain') !== false);
+    return (strpos($result, 'No match for') !== false ? 0 : 1);
 }
 ?>

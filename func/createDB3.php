@@ -12,5 +12,6 @@ function createDB3($name,$table,$rows)
     $db->setdbName($name);
     $db->setdbTable($table);
     $db->createDB($rows);
+    unset($db);
 }
 ?>

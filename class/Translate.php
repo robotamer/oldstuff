@@ -62,6 +62,10 @@ class Translate {
             return $obj->$lang;
     }
 
+	public function setLang($lang) {
+		$this->language = $lang;
+		}
+
    /**
     * Get the translation for all languages
     *
