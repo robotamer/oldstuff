@@ -9,6 +9,8 @@ defined('DEBUG') || define('DEBUG', 1);
 defined('MROOT') || define('MROOT',FALSE); #No Memory
 define('PHPL', '/var/www/asset/php/' ); # PHP Libraries
 
+define('DEVELOPER_EMAIL', 'you@example.com');
+
 $host = array_reverse(explode('.', $_SERVER['HTTP_HOST']));
 $domain = $host[1].'.'.$host[0];
 $subdomain = isset($host[2]) ? $host[2] : 'www';
